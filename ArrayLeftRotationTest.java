@@ -8,8 +8,8 @@ class ArrayLeftRotationTest {
 
     @Test
     void testForOneElement() {
-        int[] arr = {3};
-        int[] result = ArrayLeftRotation.rotateLeft(arr, 3);
+        int[] arr = {5};
+        int[] result = ArrayLeftRotation.rotateLeft(arr, 5);
         assertArrayEquals(arr, result);
     }
 
